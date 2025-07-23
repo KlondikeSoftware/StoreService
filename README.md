@@ -10,7 +10,8 @@ Store Service component
 Add via Unity Package Component.
 + Install package from git url -> Insert link
 ```json
-git@github.com:KlondikeSoftware/PurchasingService.git
+git@github.com:KlondikeSoftware/StoreService.git
 ```
+
 ## Dependencies
 - PurchasingService
