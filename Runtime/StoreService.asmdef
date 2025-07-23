@@ -1,0 +1,22 @@
+{
+    "name": "StoreService",
+    "rootNamespace": "com.ksgames.services.store",
+    "references": [
+        "Lukomor",
+        "PurchasingService",
+        "KSInventory",
+        "KSRPGAbstractions",
+        "ArchitectCore",
+        "PersistenceService",
+        "GameResources"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
