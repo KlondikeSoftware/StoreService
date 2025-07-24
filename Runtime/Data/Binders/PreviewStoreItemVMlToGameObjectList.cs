@@ -6,8 +6,6 @@ using UnityEngine;
 
 namespace com.ksgames.services.store.binders
 {
-
-
     public class PreviewStoreItemVMlToGameObjectList : ObservableCollectionBinder<PurchasePreviewStoreItemViewModel>
     {
         [SerializeField] private View _prefab;
