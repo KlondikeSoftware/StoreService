@@ -1,5 +1,5 @@
 using com.ksgames.rpgcore.abstractions.gameresources;
-using com.ksgames.rpgcore.inventory.extscripts.data;
+using com.ksgames.rpgcore.inventory.data;
 using Lukomor.Reactive;
 using R3;
 

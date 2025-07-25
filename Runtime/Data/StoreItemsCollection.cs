@@ -1,8 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using com.ksgames.rpgcore.abstractions.inventory;
-using com.ksgames.rpgcore.inventory.extscripts;
-using HeroEditor.Common.Data;
+using com.ksgames.rpgcore.inventory.data;
 using UnityEngine;
 
 namespace com.ksgames.services.store

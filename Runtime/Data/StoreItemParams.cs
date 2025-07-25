@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using com.ksgames.rpgcore.abstractions.gameresources;
-using com.ksgames.rpgcore.inventory.extscripts.data;
+using com.ksgames.rpgcore.inventory.data;
 using NUnit.Framework.Internal;
-using Unity.Android.Gradle.Manifest;
+// using Unity.Android.Gradle.Manifest;
 using UnityEngine;
 
 namespace com.ksgames.services.store
@@ -54,10 +54,10 @@ namespace com.ksgames.services.store
             return localized == null ? Id : localized.Value;
         }
 
-        public MetaData MetaToList()
-        {
-            // return Meta.IsEmpty() ? new MetaData() : JsonUtility.FromJson<MetaData>(Meta);
-            return new MetaData();
-        }
+        // public MetaData MetaToList()
+        // {
+        //     // return Meta.IsEmpty() ? new MetaData() : JsonUtility.FromJson<MetaData>(Meta);
+        //     return new MetaData();
+        // }
     }
 }

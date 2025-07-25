@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using com.ksgames.rpgcore.abstractions.gameresources;
-using com.ksgames.rpgcore.inventory.extscripts.data;
+using com.ksgames.rpgcore.inventory.data;
 
 namespace com.ksgames.services.store
 {
