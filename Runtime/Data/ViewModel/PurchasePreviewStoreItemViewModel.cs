@@ -22,7 +22,7 @@ namespace com.ksgames.services.store.viewmodel
         public ReactiveCollection<ResourceViewModel> Resources { get; set; } = new ReactiveCollection<ResourceViewModel>();
         // public ReactiveCollection<Resource> _resources { get; set; }
         
-        public ButtonViewModel BuyButton { get; set; }
+        public UIButtonViewModel BuyUIButton { get; set; }
 
         private Action<StoreItem> _onConfirm;
         
@@ -32,8 +32,8 @@ namespace com.ksgames.services.store.viewmodel
             // _onConfirm = OnBuyCallback;
             _storeItem = storeItem;
             
-            BuyButton = new ButtonViewModel(OnBuyButtonClick, "OnPurchaseBtnClick");
-            BuyButton.Caption.Value = storeItem.StorePriceText.Value;
+            BuyUIButton = new UIButtonViewModel(OnBuyButtonClick, "OnPurchaseBtnClick");
+            BuyUIButton.Caption.Value = storeItem.StorePriceText.Value;
             // BuyButton.Enable.Value = false;
             Caption = new Lukomor.Reactive.ReactiveProperty<string>(storeItem.Caption);
             // _items = new ReactiveCollection<Item>(storeItem.Items);
