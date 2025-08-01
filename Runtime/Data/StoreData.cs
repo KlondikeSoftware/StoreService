@@ -1,9 +1,10 @@
 using System.Collections.Generic;
 using com.ksgames.services.persistenceservice;
+using Lukomor.Reactive;
 
 namespace com.ksgames.services.store
 {
-    public class StoreData: IGameState
+    public class StoreData: IGameData
     {
         public List<StoreItemData> StoreItems;
         public bool HasNewItem;
@@ -12,5 +13,7 @@ namespace com.ksgames.services.store
         {
             StoreItems = storeItems;
         }
+
+        public GameStateEnum State { get; }
     }
 }
