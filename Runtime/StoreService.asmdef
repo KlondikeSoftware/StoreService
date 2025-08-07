@@ -9,7 +9,8 @@
         "ArchitectCore",
         "PersistenceService",
         "GameResources",
-        "UITools"
+        "UITools",
+        "MVVMCore"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
