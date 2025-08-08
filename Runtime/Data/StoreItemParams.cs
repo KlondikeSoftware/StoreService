@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using com.ksgames.rpgcore.abstractions.gameresources;
+using com.ksgames.core.abstractions.gameresources;
 using com.ksgames.rpgcore.inventory.data;
 using NUnit.Framework.Internal;
 // using Unity.Android.Gradle.Manifest;

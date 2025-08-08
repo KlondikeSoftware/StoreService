@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-using com.ksgames.rpgcore.abstractions.inventory;
+using com.ksgames.core.abstractions.inventory;
 using com.ksgames.rpgcore.inventory.data;
 using UnityEngine;
 

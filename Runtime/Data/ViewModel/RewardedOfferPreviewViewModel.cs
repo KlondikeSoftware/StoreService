@@ -1,5 +1,5 @@
 using System;
-using com.ksgames.rpgcore.abstractions.gameresources;
+using com.ksgames.core.abstractions.gameresources;
 using com.ksgames.rpgcore.gameresources.viewmodel;
 using Lukomor.MVVM;
 using Lukomor.Reactive;

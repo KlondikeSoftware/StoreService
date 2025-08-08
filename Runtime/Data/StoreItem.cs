@@ -1,4 +1,4 @@
-using com.ksgames.rpgcore.abstractions.gameresources;
+using com.ksgames.core.abstractions.gameresources;
 using com.ksgames.rpgcore.inventory.data;
 using Lukomor.Reactive;
 using R3;

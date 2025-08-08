@@ -1,6 +1,6 @@
 using System.Collections.Generic;
-using com.ksgames.services.MVVMCore;
-using com.ksgames.services.persistenceservice;
+using com.ksgames.core.abstractions.persistence;
+using com.ksgames.core.abstractions.persistence.enums;
 
 namespace com.ksgames.services.store
 {
