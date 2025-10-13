@@ -15,5 +15,8 @@ namespace com.ksgames.services.store
         }
 
         public GameStateEnum State { get; }
+        public void UpdateData()
+        {
+        }
     }
 }
