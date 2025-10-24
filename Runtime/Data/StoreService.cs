@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 using System.Reactive.Linq;
 using com.ksgames.core.architect;
+using com.ksgames.core.architect.collections.store;
 using com.ksgames.services.purchasingservice;
 using com.ksgames.services.store.commands;
 using Lukomor.Reactive;

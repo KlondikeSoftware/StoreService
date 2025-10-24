@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using com.ksgames.core.architect.collections.store;
 using com.ksgames.services.store.viewmodel;
 using Lukomor.MVVM;
 using Lukomor.MVVM.Binders;
